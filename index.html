@@ -29,7 +29,7 @@
         <li class="nav-item">
           <a href="#experience" class="nav-link has-dropdown">Experience</a>
           <div class="dropdown">
-            <a href="#stack" class="dropdown-link">Tech Stack</a>
+            <a href="#stack" class="dropdown-link">Development Tools</a>
             <a href="#experience" class="dropdown-link">Work Experience</a>
           </div>
         </li>
@@ -95,10 +95,10 @@
     </div>
   </section>
 
-  <!-- Tech Stack -->
+  <!-- Development Tools -->
   <section id="stack" class="section">
     <div class="container">
-      <h2 class="section-title">Tech Stack</h2>
+      <h2 class="section-title">Development Tools</h2>
       <div class="marquee">
         <div class="marquee-track">
           <div class="marquee-content">
@@ -143,8 +143,7 @@
           </div>
           <div class="company">Offshorly Ltd.</div>
           <div class="accordion-content">
-            <li>Built and customized WordPress websites using HTML, CSS, JavaScript, and PHP to deliver responsive and user centric digital experiences.</li>
-            <li>Integrated frameworks such as Twig, SCSS, and jQuery to enhance site functionality, streamline development, and improve visual design.</li>
+            <li>Built and customized WordPress websites using Twig, SASS, and jQuery, JavaScript, and PHP to deliver responsive and user centric digital experiences.</li>
             <li>Managed website maintenance, including plugin updates, issue resolution, and performance optimization using BlogVault and GTmetrix.</li>
             <li>Delivered scalable and high performing solutions tailored to client requirements while ensuring clean code and modern design standards.</li>
           </div>
@@ -248,7 +247,7 @@
       <div class="brands-grid">
         <div class="brand-card" style="background-image: url('assets/brand-1.png'); background-size: cover; background-position: center;">
           <div class="card-overlay">
-            <p>Developed a WordPress website for a Singapore-based company using Twig, SCSS, JavaScript, and PHP.</p>
+            <p>Developed a WordPress website for a Singapore-based company using Twig, SASS, JavaScript, and PHP.</p>
             <a href="https://realitymarble.io" class="visit-button">Visit Website</a>
           </div>
         </div>
@@ -280,7 +279,7 @@
             <div class="project-tech">
               <span class="tech-tag">WordPress</span>
               <span class="tech-tag">Twig</span>
-              <span class="tech-tag">Scss</span>
+              <span class="tech-tag">SAAS</span>
               <span class="tech-tag">JavaScript</span>
               <span class="tech-tag">PHP</span>
             </div>
@@ -343,23 +342,23 @@
         <div class="certification-item">
           <img src="assets/Cisco-logo.png" alt="AWS Logo" class="cert-logo" />
           <div class="certification-header">
-            <h3 class="cert-title">HTML and CSS Specialist</h3>
+            <h3 class="cert-title">DevNet Associate</h3>
           </div>
-          <a href="https://www.credly.com/badges/febe66df-6d2c-43e5-adaa-cdd1a3b47d30/public_url" class="badge-button" target="_blank">View Badge</a>
+          <a href="https://www.credly.com/badges/7e0c0557-b10f-4000-9636-27cb1d202a36/public_url" class="badge-button" target="_blank">View Badge</a>
         </div>
         <div class="certification-item">
           <img src="assets/Cisco-logo.png" alt="Google Logo" class="cert-logo" />
           <div class="certification-header">
-            <h3 class="cert-title">Networking Specialist</h3>
+            <h3 class="cert-title">Enterprise Networking, Security, and Automation</h3>
           </div>
-          <a href="https://www.credly.com/badges/d73b2605-9c9d-47f2-ba10-05e52fc60b48/public_url" class="badge-button" target="_blank">View Badge</a>
+          <a href="https://www.credly.com/badges/c98de10c-e45a-40f9-a1e5-a5285f1f0fd2/public_url" class="badge-button" target="_blank">View Badge</a>
         </div>
         <div class="certification-item">
           <img src="assets/Cisco-logo.png" alt="Google Logo" class="cert-logo" />
           <div class="certification-header">
-            <h3 class="cert-title">CyberOps Associate</h3>
+            <h3 class="cert-title">Introduction to Networks</h3>
           </div>
-          <a href="https://www.credly.com/badges/3b1caac9-76d7-4927-ac92-9744c76d24ae/public_url" class="badge-button" target="_blank">View Badge</a>
+          <a href="https://www.credly.com/badges/197ff0c2-8011-4421-82cc-2f9703a825bd/public_url" class="badge-button" target="_blank">View Badge</a>
         </div>
       </div>
     </div>
@@ -444,29 +443,30 @@
     </div>
   </section>
 
-  <!-- Contact Section -->
-  <section id="contact" class="section">
-    <div class="container">
-      <div class="contact-form">
-        <form>
-          <h2>Contact Me</h2>
-          <div class="form-group">
-            <input type="text" class="form-control" placeholder="Your Name" required>
-          </div>
-          <div class="form-group">
-            <input type="email" class="form-control" placeholder="Your Email" required>
-          </div>
-          <div class="form-group">
-            <input type="text" class="form-control" placeholder="Subject">
-          </div>
-          <div class="form-group">
-            <textarea class="form-control" placeholder="Your Message" required></textarea>
-          </div>
-          <button type="submit" class="c-btn">Send Message</button>
-        </form>
-      </div>
+<!-- Contact Section -->
+<section id="contact" class="section">
+  <div class="container">
+    <div class="contact-form">
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <h2>Contact Me</h2>
+        <div class="form-group">
+          <input type="hidden" name="access_key" value="d443dbf3-1801-41e3-b74b-374e7245c936">
+          <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+          <input type="text" name="subject" class="form-control" placeholder="Subject">
+        </div>
+        <div class="form-group">
+          <textarea name="message" class="form-control" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="c-btn">Send Message</button>
+      </form>
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- Footer -->
   <footer>
